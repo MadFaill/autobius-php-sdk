@@ -1,0 +1,35 @@
+{
+    "name": "autobius/autobius-php-sdk",
+    "description": "Autobius VIN Decoder php sdk",
+    "keywords": [
+        "autobius",
+        "php",
+        "sdk",
+        "api"
+    ],
+    "homepage": "https://autobius.ru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MadFaill <madfaill@gmail.com>",
+            "homepage": "https://madfaill.github.io/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "satooshi/php-coveralls": "~1.0",
+        "squizlabs/php_codesniffer": "~2.6"
+    },
+    "autoload": {
+        "psr-4": { "Swagger\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Swagger\\Client\\" : "test/" }
+    }
+}
